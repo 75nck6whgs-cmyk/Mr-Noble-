@@ -3,82 +3,169 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mr Black | Private Wellness Massage</title>
+  <title>Mr Black | Private Luxury Wellness Massage</title>
+  <meta name="description" content="Mr Black offers private luxury wellness massage appointments by request. Discreet home and hotel visits for clients who value privacy, calm and refined service." />
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <div class="brand">Mr Black</div>
-      <nav class="nav-menu">
-        <a href="#home">Home</a>
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">Mr Black</a>
+      <nav class="nav-menu" aria-label="Main navigation">
         <a href="#about">About</a>
-        <a href="#experience">Experience</a>
+        <a href="#services">Services</a>
+        <a href="#areas">Areas</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#faqs">FAQs</a>
         <a href="#contact">Book</a>
       </nav>
     </div>
   </header>
 
-  <section id="home" class="hero">
-    <div class="hero-overlay"></div>
-    <div class="hero-content container">
-      <p class="hero-subtitle">Discreet. Professional. Exclusive.</p>
-      <h1 class="hero-title">Mr Black</h1>
-      <p class="hero-tagline">Private luxury wellness massage</p>
-      <p class="hero-description">A calm, personalised and respectful service designed for clients who value privacy, presentation and a refined experience. Available by appointment for home visits and hotel bookings.</p>
-      <a href="#contact" class="btn-primary">Request a booking</a>
-    </div>
-  </section>
-
-  <section id="about" class="about">
-    <div class="container about-content">
-      <h2>The ethos</h2>
-      <p>Mr Black is built on word of mouth, discretion and quality. The service is intentionally simple: clean presentation, punctuality, privacy and a relaxing experience delivered with care and respect.</p>
-    </div>
-  </section>
-
-  <section id="experience" class="experience">
-    <div class="container">
-      <h2>The experience</h2>
-      <div class="experience-grid">
-        <div class="experience-item">
-          <h3>Home visits</h3>
-          <p>Relax in your own space with a tailored appointment arranged around your schedule.</p>
-        </div>
-        <div class="experience-item">
-          <h3>Hotel appointments</h3>
-          <p>Private appointments can be arranged for clients staying locally or travelling.</p>
-        </div>
-        <div class="experience-item">
-          <h3>Signature session</h3>
-          <p>An unhurried, luxury wellness experience focused on relaxation, comfort and calm.</p>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content container">
+        <p class="eyebrow">Discreet. Professional. Exclusive.</p>
+        <h1>Mr Black</h1>
+        <p class="hero-tagline">Private luxury wellness massage, by appointment only.</p>
+        <p class="hero-description">A calm, personalised and respectful service for clients who value privacy, presentation and a refined experience. Available for selected home visits and hotel appointments.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Request a booking</a>
+          <a href="#services" class="btn-secondary">View services</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="contact">
-    <div class="container contact-content">
-      <h2>Request a booking</h2>
-      <p>Appointments are by advance request only. Please send your preferred date, time and location type, and I will respond with availability.</p>
-      <form class="booking-form" action="#" method="post" onsubmit="event.preventDefault(); alert('Thank you. Your enquiry is ready to be sent.');">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your name" required />
+    <section id="about" class="section about">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">The brand</p>
+          <h2>Quiet luxury, built on reputation.</h2>
         </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Your email" required />
+        <div>
+          <p>Mr Black is designed as a private, word-of-mouth service with a focus on quality over volume. The experience is simple: clean presentation, punctuality, calm energy, discretion and respect.</p>
+          <p>The tone is refined rather than loud. Every appointment is handled professionally, with clear communication before arrival and a calm, unhurried atmosphere during the session.</p>
         </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="4" placeholder="Preferred appointment details or questions" required></textarea>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <p class="eyebrow center">Services</p>
+        <h2>Choose the setting that suits you.</h2>
+        <div class="card-grid">
+          <article class="card">
+            <span class="card-number">01</span>
+            <h3>Home visits</h3>
+            <p>A private appointment in your own space, arranged with care and clear communication.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">02</span>
+            <h3>Hotel appointments</h3>
+            <p>Discreet appointments for clients staying locally, travelling, or preferring a hotel setting.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">03</span>
+            <h3>Signature session</h3>
+            <p>An unhurried luxury wellness experience focused on relaxation, comfort and calm.</p>
+          </article>
         </div>
-        <button type="submit" class="btn-primary">Send enquiry</button>
-      </form>
-    </div>
-  </section>
+      </div>
+    </section>
+
+    <section id="areas" class="section areas">
+      <div class="container narrow">
+        <p class="eyebrow center">Areas covered</p>
+        <h2>Private appointments by request.</h2>
+        <p>Availability is arranged case by case. Add your preferred area, date, time and appointment type in the booking request. Travel outside the main area can be discussed in advance.</p>
+        <div class="pill-row">
+          <span>Home visits</span>
+          <span>Hotel visits</span>
+          <span>Advance bookings</span>
+          <span>Discreet arrival</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Discretion</p>
+          <h2>Privacy is part of the service.</h2>
+        </div>
+        <div class="feature-list">
+          <p><strong>Private communication:</strong> booking details are handled respectfully and kept minimal.</p>
+          <p><strong>Low-profile presentation:</strong> no loud branding, no unnecessary attention, and no rushed approach.</p>
+          <p><strong>Clear boundaries:</strong> expectations are discussed before confirming any appointment.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faqs" class="section faqs">
+      <div class="container">
+        <p class="eyebrow center">Questions</p>
+        <h2>FAQs</h2>
+        <div class="faq-list">
+          <details>
+            <summary>How do I request an appointment?</summary>
+            <p>Use the booking form below and include your preferred date, time, location type and any questions.</p>
+          </details>
+          <details>
+            <summary>Are bookings confirmed instantly?</summary>
+            <p>No. This is an appointment-request service. You will receive a response with availability before anything is confirmed.</p>
+          </details>
+          <details>
+            <summary>Do you offer home and hotel visits?</summary>
+            <p>Yes, both can be requested. Details are agreed privately before the appointment.</p>
+          </details>
+          <details>
+            <summary>Is the service discreet?</summary>
+            <p>Yes. Discretion, respect and privacy are central to the brand.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-content">
+        <p class="eyebrow center">Booking request</p>
+        <h2>Request your appointment.</h2>
+        <p>Complete the form below. It will open your email app with the enquiry prepared. Replace the booking email in the code when your business email is ready.</p>
+        <form class="booking-form" id="bookingForm">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email" required />
+            </div>
+          </div>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="date">Preferred date</label>
+              <input type="text" id="date" name="date" placeholder="Example: Friday evening" />
+            </div>
+            <div class="form-group">
+              <label for="location">Location type</label>
+              <select id="location" name="location">
+                <option>Home visit</option>
+                <option>Hotel appointment</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Share preferred time, area and any questions." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Prepare enquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
   <footer class="site-footer">
     <div class="container footer-content">
@@ -87,5 +174,24 @@
       <p class="footer-note">Discretion. Respect. Excellence.</p>
     </div>
   </footer>
+
+  <script>
+    const bookingEmail = "bookings@example.com";
+    document.getElementById("bookingForm").addEventListener("submit", function (event) {
+      event.preventDefault();
+      const data = new FormData(event.target);
+      const subject = "Booking request for Mr Black";
+      const body = [
+        "Name: " + data.get("name"),
+        "Email: " + data.get("email"),
+        "Preferred date: " + data.get("date"),
+        "Location type: " + data.get("location"),
+        "",
+        "Message:",
+        data.get("message")
+      ].join("\n");
+      window.location.href = "mailto:" + bookingEmail + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    });
+  </script>
 </body>
 </html>
